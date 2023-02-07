@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/project.css">
+	<title>Blogin Admin Area</title>
+</head>
+<body>
+
+	<!-- start nav bar -->
+
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+		<div class="container">
+			<a href="project.html" class="navbar-brand">Blogen</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarNav" class="navbar-collapse collapse">
+			</div>
+		</div>
+	</nav>
+
+	<!-- end nav bar -->
+
+	<!-- start main header -->
+
+	<header id="main-header" class="py-3 bg-primary text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>
+						<i class="fa fa-user"></i> Blogin Admin
+					</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- end main header -->
+
+	<!-- start actions -->
+
+	<section id="actions" class="py-4 mb-3 bg-light">
+		<div class="container">
+			<div class="row">
+			</div>
+		</div>
+	</section>
+
+	<!-- end actions -->
+
+	<!-- start posts -->
+
+	<section id="login">
+		<div class="container">
+			<div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-header">
+              <h4>Account LogIn</h4>
+            </div>
+            <div class="card-body">
+              <form action="project.html">
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="password">password</label>
+                  <input type="password" class="form-control">
+                </div>
+                <input type="submit" class="btn btn-primary btn-block" value="Login">
+              </form>
+            </div>
+          </div>
+        </div>
+			</div>
+		</div>
+	</section>
+
+	<!-- end posts -->
+
+	<!-- start footer -->
+
+	<footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p class="lead text-center">Copyright &copy; 2018 Blogen</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- end footer -->
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<script src="ckeditor/ckeditor.js"></script>
+	<script>
+		CKEDITOR.replace( 'editor1' );
+	</script>
+</body>
+</html>
